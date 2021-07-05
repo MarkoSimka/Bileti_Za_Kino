@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Services\\KinoBileti.Services.csproj": {}
+    "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Web\\KinoBileti.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Services\\KinoBileti.Services.csproj": {
+    "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Web\\KinoBileti.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Services\\KinoBileti.Services.csproj",
-        "projectName": "KinoBileti.Services",
-        "projectPath": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Services\\KinoBileti.Services.csproj",
+        "projectUniqueName": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Web\\KinoBileti.Web.csproj",
+        "projectName": "KinoBileti.Web",
+        "projectPath": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Web\\KinoBileti.Web.csproj",
         "packagesPath": "C:\\Users\\MARKO\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Services\\obj\\",
+        "outputPath": "C:\\Users\\MARKO\\Documents\\GitHub\\Bileti_Za_Kino\\Kino_bileti\\KinoBileti.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MARKO\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,11 +40,25 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.12, )"
             },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.12, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.12, )"
             }
@@ -60,6 +74,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }

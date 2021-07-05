@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31321.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kino_bileti", "Kino_bileti\Kino_bileti.csproj", "{1B8C3348-CE03-4EF5-ACCF-CDB58A92270C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinoBileti.Repository", "KinoBileti.Repository\KinoBileti.Repository.csproj", "{06927367-0394-4205-A88A-43CC87DD2395}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBileti.Repository", "KinoBileti.Repository\KinoBileti.Repository.csproj", "{06927367-0394-4205-A88A-43CC87DD2395}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinoBileti.Domain", "KinoBileti.Domain\KinoBileti.Domain.csproj", "{E8A82505-D516-466E-8A65-EDDBBBE2972A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBileti.Domain", "KinoBileti.Domain\KinoBileti.Domain.csproj", "{E8A82505-D516-466E-8A65-EDDBBBE2972A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinoBileti.Services", "KinoBileti.Services\KinoBileti.Services.csproj", "{4E5CD3A0-92F8-4298-81B4-53AE92D7630D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBileti.Services", "KinoBileti.Services\KinoBileti.Services.csproj", "{4E5CD3A0-92F8-4298-81B4-53AE92D7630D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KinoBileti.Web", "KinoBileti.Web\KinoBileti.Web.csproj", "{4D00E57F-105D-4370-8DBB-1F2264DBDB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{1B8C3348-CE03-4EF5-ACCF-CDB58A92270C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1B8C3348-CE03-4EF5-ACCF-CDB58A92270C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1B8C3348-CE03-4EF5-ACCF-CDB58A92270C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1B8C3348-CE03-4EF5-ACCF-CDB58A92270C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{06927367-0394-4205-A88A-43CC87DD2395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{06927367-0394-4205-A88A-43CC87DD2395}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06927367-0394-4205-A88A-43CC87DD2395}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{4E5CD3A0-92F8-4298-81B4-53AE92D7630D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E5CD3A0-92F8-4298-81B4-53AE92D7630D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E5CD3A0-92F8-4298-81B4-53AE92D7630D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D00E57F-105D-4370-8DBB-1F2264DBDB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D00E57F-105D-4370-8DBB-1F2264DBDB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D00E57F-105D-4370-8DBB-1F2264DBDB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D00E57F-105D-4370-8DBB-1F2264DBDB3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
